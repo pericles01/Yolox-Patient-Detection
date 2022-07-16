@@ -1,0 +1,6 @@
+indir: ../../../1_Data/PRC/TOMS/Dartmouth_Synthetic/data/Batch_01__777ad3fa-d7f6-4213-ae9f-e49aeba7f4d5/frames_Ch2_001_CH010
+outdir: ../../../1_Data/MOD/results/yolox-train-webimages/yolox-train-webimages_1637919956_962ee055/test_results/bbox_infered
+ckpt: ../../../1_Data/MOD/results/yolox-train-webimages/yolox-train-webimages_1637919956_962ee055/model_outputs/best_ckpt.pth
+model_name: yolox-s
+conf: 0.7
+nms: 0.4

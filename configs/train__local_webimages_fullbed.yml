@@ -1,0 +1,9 @@
+experiment: yolox-train-webimages
+environment: yolox
+indir: ../../../1_Data/DRV/TOMS/train_sets/Web_Images/hospital_beds
+outdir: ../../../1_Data/MOD/results/yolox-train-webimages
+max_epoch: 10
+batch_size: 5
+model_name: yolox-s
+augment: False
+num_classes: 1

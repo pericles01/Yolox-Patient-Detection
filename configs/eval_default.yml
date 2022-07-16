@@ -1,0 +1,9 @@
+experiment: yolox-eval-webimages
+indir: ../../../1_Data/DRV/TOMS/test_sets/Dartmouth_Synthetic_fskip10/
+outdir: ../../../1_Data/MOD/results/yolox-eval-webimages/eval_results
+ckpt: ../../../1_Data/MOD/results/yolox-train-webimages/yolox-train-webimages_1637919956_962ee055/model_outputs/best_ckpt.pth
+model_name: yolox-s
+conf: 0.001
+nmsthre: 0.3
+val_subdir: images
+val_ann: test.json
