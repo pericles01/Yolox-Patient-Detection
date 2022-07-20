@@ -1,17 +1,17 @@
-indir: DRV/TOMS/test_sets/Dartmouth_Synthetic_fskip10/images
-outdir: MOD/results/yolox-infer-webimages/{run-id}'
-ckpt: MOD/results/yolox-train-webimages/yolox-train-webimages_1637919956_962ee055/yolox-train-webimages/best_ckpt.pth
+indir: test_sets/fskip10/images
+outdir: results/yolox-infer-webimages
+ckpt: results/yolox-train-webimages/yolox-train-webimages/best_ckpt.pth
 model_name: yolox-s
 conf: 0.7
 nms: 0.4
-subscription: 15c1afea-319d-4e83-874a-8c989125f3b9
-resource_group: rg-surgicaldataplatform-stage
+subscription: 
+resource_group: 
 docker_image: yolox:0.3
 experiment: yolox-train-webimages
-workspace: ml-toms-patient2
+workspace: 
 environment: yolox
-datastore: sdpdatadev
+datastore: 
 container_registry:
-  address: kzsdp.azurecr.io
-  username: kzsdp
-  password: S0=sd8AF+mKS4xsCj2FTksywbMp0DDus
+  address: 
+  username: 
+  password: 

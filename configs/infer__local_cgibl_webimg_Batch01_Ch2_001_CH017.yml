@@ -1,7 +1,0 @@
-name: dartmouth_synthetic_Batch01_Ch2_001_CH017
-indir: ../../../1_Data/PRC/TOMS/Dartmouth_Synthetic/data/Batch_01__777ad3fa-d7f6-4213-ae9f-e49aeba7f4d5/frames_Ch2_001_CH017
-outdir: ../../../1_Data/MOD/results/yolox-train-cgiweb/yolox-train-cgiwebimages_1638889164_9a6e063b/test_results/bbox_infered
-ckpt: ../../../1_Data/MOD/results/yolox-train-cgiweb/yolox-train-cgiwebimages_1638889164_9a6e063b/model_outputs/best_ckpt.pth
-model_name: yolox-s
-conf: 0.2
-nms: 0.4

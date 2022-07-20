@@ -1,18 +1,18 @@
-subscription: 15c1afea-319d-4e83-874a-8c989125f3b9
-resource_group: rg-surgicaldataplatform-stage
+subscription: 
+resource_group: 
 docker_image: yolox:0.3
-experiment: yolox-train-webimages
-workspace: ml-toms-patient2
+experiment: yolox-train
+workspace: 
 environment: yolox
-datastore: sdpdatadev
-indir: DRV/TOMS/train_sets/Web_Images/hospital_beds
-outdir: MOD/results/yolox-train-webimages/{run-id}'
+datastore: 
+indir: train_sets/Web_Images/hospital_beds
+outdir: results/yolox-train-webimages
 max_epoch: 300
 batch_size: 15
 model_name: yolox-s
 augment: False
 num_classes: 1
 container_registry:
-  address: kzsdp.azurecr.io
-  username: kzsdp
-  password: 14RjwP=Rq4mFyvmi8V6zM239anQJKPzG
+  address: 
+  username: 
+  password: 
